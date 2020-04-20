@@ -12,11 +12,11 @@
 
 <div>
 <img src="static/model_metrics.PNG"/>
-<div>
+</div>
 <sub>Model Metrics</sub>
 <div>
 <img src="static/fer_model_comparison.PNG"/>
-<div>
+</div>
 <sub>Top Models on Kaggle</sub>
 
 From the screenshots, our model would have placed 1st in the Kaggle competition! However, there are many components in play here.
