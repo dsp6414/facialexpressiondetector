@@ -3,11 +3,14 @@
 <div>
 <img src="static/output_friends2.jpg"/>
 <div>
+  <div>
+  <img src="static/facial_recognition_gif.gif" width="600" height="337.5"/>
+</div>
 <div>
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
   </div>
-  ![](static/facial_recognition_gif.gif)
+
 <div align="left">
 <h3> Overview 🎯 </h3>
 <h4>🔢Results</h4>
