@@ -1,4 +1,3 @@
-
 <div align="center">
 <h1>Facial Expression Detector 🙌</h1>
 <div>
@@ -8,6 +7,7 @@
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
   </div>
+  ![](static/facial_recognition_gif.gif)
 <div align="left">
 <h3> Overview 🎯 </h3>
 <h4>🔢Results</h4>
@@ -39,4 +39,5 @@ From the screenshots, our model would have placed 1st in the Kaggle competition!
 ### Developed by [Khem Sok](https://github.com/khemsok) 🧐
 
 Thanks For Reading!
+
 </div>
