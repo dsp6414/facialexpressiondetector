@@ -3,12 +3,11 @@
 <div>
 <img src="static/output_friends2.jpg"/>
 <div>
+<div>
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
-
-### Overview 🎯
-
-**🔢Results**
+<h1> Overview 🎯 </h1>
+<h3>🔢Results</h3>
 <div>
 <div>
 <img src="static/model_metrics.PNG"/>
@@ -18,6 +17,7 @@
 <img src="static/fer_model_comparison.PNG"/>
 </div>
 <sub>Top Models on Kaggle</sub>
+</div>
 </div>
 
 From the screenshots, our model would have placed 1st in the Kaggle competition! However, there are many components in play here.
