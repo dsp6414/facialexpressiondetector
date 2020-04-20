@@ -42,7 +42,6 @@ def train_model():
 
     if(counter % 100 == 0):
       print(f'Accuracy: {round(acc_counter/batch_counter, 4)} \t Loss: {loss_counter/counter}')
-  
 def test():
   print('=== VALIDATION ===')
   model.eval()
@@ -50,6 +49,8 @@ def test():
   loss_counter = 0
   batch_counter = 0
   counter = 0
+  class_correct = [0 for i in range(len(class_names))]
+  class_total = [0 for i in range(len(class_names))]
   with torch.no_grad():
     for inputs, labels in test_dataloader:
       inputs, labels = inputs.to(device), labels.to(device)
@@ -60,6 +61,11 @@ def test():
 
       preds = torch.argmax(outputs, 1)
       acc = (preds == labels).sum().item()
+      c = (preds == labels)
+      for i in range(len(labels)):
+        label = labels[i]
+        class_correct[label] += c[i].item()
+        class_total[label] += 1
 
       acc_counter += acc
       loss_counter += loss.item()
@@ -67,6 +73,8 @@ def test():
       counter += 1
 
   print(f'Accuracy: {round(acc_counter/batch_counter, 4)} \t Loss: {round(loss_counter/counter, 4)}')
+  for i in range(len(class_names)):
+    print(f'Accuracy of {class_names[i]} : {round(class_correct[i]/class_total[i], 4)}')
 
 root_data_dir = 'data'
 
