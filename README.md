@@ -24,7 +24,7 @@
 <br />
   </div>
 
-
+<div align="left">
 From the screenshots, our model would have placed 1st in the Kaggle competition! However, there are many components in play here.
 
 1. The model is trained on only 4 categories instead of 7. The decision to go with fewer categories is due to the unbalance data in each categories plus model performs better on fewer categories 😊
@@ -39,3 +39,4 @@ From the screenshots, our model would have placed 1st in the Kaggle competition!
 ### Developed by [Khem Sok](https://github.com/khemsok) 🧐
 
 Thanks For Reading!
+</div>
