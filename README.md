@@ -41,7 +41,7 @@ From the screenshots, our model would have placed 1st in the Kaggle competition!
 
 Thanks For Reading!
   <div>
-  <img src="static/facial_recognition_gif.gif" width="600" height="337.5"/>
+  <img src="static/facial_recognition_gif.gif" width="600"/>
 </div>
 </div>
 
