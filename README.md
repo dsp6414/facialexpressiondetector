@@ -9,7 +9,7 @@
 ### Overview 🎯
 
 **🔢Results**
-
+<div>
 <div>
 <img src="static/model_metrics.PNG"/>
 </div>
@@ -18,6 +18,7 @@
 <img src="static/fer_model_comparison.PNG"/>
 </div>
 <sub>Top Models on Kaggle</sub>
+</div>
 
 From the screenshots, our model would have placed 1st in the Kaggle competition! However, there are many components in play here.
 
