@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 <h1>Facial Expression Detector 🙌</h1>
 <div>
 <img src="static/output_friends2.jpg"/>
@@ -6,8 +6,8 @@
 <div>
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
-<h1> Overview 🎯 </h1>
-<h3>🔢Results</h3>
+<h3> Overview 🎯 </h3>
+<h4>🔢Results</h4>
 <div>
 <div>
 <img src="static/model_metrics.PNG"/>
