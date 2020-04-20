@@ -1,4 +1,5 @@
-<div>
+
+<div align="center">
 <h1>Facial Expression Detector 🙌</h1>
 <div>
 <img src="static/output_friends2.jpg"/>
@@ -6,6 +7,8 @@
 <div>
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
+  </div>
+<div align="left">
 <h3> Overview 🎯 </h3>
 <h4>🔢Results</h4>
 <div>
@@ -18,7 +21,9 @@
 </div>
 <sub>Top Models on Kaggle</sub>
 </div>
-</div>
+<br />
+  </div>
+
 
 From the screenshots, our model would have placed 1st in the Kaggle competition! However, there are many components in play here.
 
