@@ -33,7 +33,8 @@ From the screenshots, our model would have placed 1st in the Kaggle competition!
 ### Technologies 🔨
 
 - **🔥 PyTorch**: Deep Learning Framework
-- **⚡Transfer Learning**: Trained on a pre-trained model
+- **⚡ Transfer Learning**: Trained on a pre-trained model
+- **📹 OpenCV**: Computer Vision library to process video data
 - **💧 [FER Dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)**: Face images taken from FER dataset from Kaggle
 
 ### Developed by [Khem Sok](https://github.com/khemsok) 🧐
