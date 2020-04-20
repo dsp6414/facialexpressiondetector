@@ -3,9 +3,6 @@
 <div>
 <img src="static/output_friends2.jpg"/>
 <div>
-  <div>
-  <img src="static/facial_recognition_gif.gif" width="600" height="337.5"/>
-</div>
 <div>
 <sub>Facial Expression Detection with PyTorch 🔥</sub>
 </div>
@@ -42,5 +39,9 @@ From the screenshots, our model would have placed 1st in the Kaggle competition!
 ### Developed by [Khem Sok](https://github.com/khemsok) 🧐
 
 Thanks For Reading!
-
+  <div>
+  <img src="static/facial_recognition_gif.gif" width="600" height="337.5"/>
 </div>
+</div>
+
+
