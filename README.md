@@ -8,6 +8,7 @@
 </div>
   </div>
 
+#### Read Medium Article @ [Here](https://medium.com/@khemsok97/how-to-detect-facial-recognition-with-transfer-learning-and-pytorch-16e3e95c9cd7)
 <div align="left">
 <h3> Overview 🎯 </h3>
 <h4>🔢Results</h4>
