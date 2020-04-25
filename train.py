@@ -14,7 +14,7 @@ import torch.nn.functional as F
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
-def train_model():
+def train():
   print('=== TRAINING ===')
   counter = 0
   acc_counter = 0
@@ -109,7 +109,7 @@ EPOCH_SIZE = 100
 
 for epoch in range(EPOCH_SIZE):
   print(f'=== EPOCH {epoch} / {EPOCH_SIZE} ===')
-  train_model()
+  train()
   test()
   exp_lr_scheduler.step()
 
