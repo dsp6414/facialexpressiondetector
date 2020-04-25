@@ -43,3 +43,6 @@ def convert_fer_to_img():
     emotion_filename = f'{emotion_str}_{index}.png'
     img.save(os.path.join(emotion_path, emotion_filename))
 
+
+if __name__ == '__main__':
+  convert_fer_to_img()
